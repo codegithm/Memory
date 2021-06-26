@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+}
+
+.page__title {
+  display: flex;
+  justify-content: center;
+  font-family: "Press Start 2P", cursive;
+}
+.memory__game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.card__container {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(60, 126, 43);
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, auto);
+  width: 50%;
+  height: 70%;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background: linear-gradient(
+    39deg,
+    rgb(188, 215, 43) 0%,
+    rgb(60, 126, 43) 100%
+  );
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
+.found {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(60, 126, 43);
+  background: white;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.react {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #dd2476;
+  background: url("../images/react2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
+.ionic {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #dd2476;
+  background: url("../images/ionic2.png");
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
+.angular {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #dd2476;
+  background: url("../images/angular2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
+.vue {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #dd2476;
+  background: url("../images/vue2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
+.flutter {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #dd2476;
+  background: url("../images/flutter2.png");
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
+.bootstrap {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #dd2476;
+  background: url("../images/bootstrap.png");
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
+.javascript {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #dd2476;
+  background: url("../images/javascript.png");
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
+.mongo {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: #dd2476;
+  background: url("../images/mongodb.png");
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
